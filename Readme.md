@@ -1,4 +1,3 @@
-
 # number-price
 
   Takes a number and returns a nicely formatted price
@@ -10,6 +9,18 @@
     $ component install anthonyshort/number-price
 
 ## API
+
+### price( Number|String, [prefix] )
+
+Takes a number or a string (that is a number) and a prefix. By default this is just '$'. 
+
+```js
+price(10, 'AU$').long() // AU$10.00
+price(10, 'NZ$').short() // NZ$10
+price(10.5, 'US$').long() // US$10.50
+```
+
+All the types of formatting:
 
 ```js
 
