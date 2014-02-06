@@ -1,0 +1,16 @@
+{
+  "name": "number-price",
+  "repo": "anthonyshort/number-price",
+  "description": "Takes a number and returns a sensibly-formatted price",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
